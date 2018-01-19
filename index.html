@@ -49,19 +49,25 @@
 
     <div style="padding-top:10px;">
         <h4>自己紹介</h4>
-        <p>
-        <p>
+
+        <div style="display:flex;flex-flow:row;align-items:center;">
+
             <a href="https://twitter.com/nyam_othellonia">
-                <img src="images/igel_othello.png" width="50"> にゃも
+                <div style="display:flex;flex-flow:column;align-items:center;justify-content: center;width:80px;">
+            <span>
+                        <img src="images/igel_othello.png" width="50px"/>
+                    </span>
+                    <span>にゃも</span>
+                </div>
             </a>
-        </p>
-        <span>
-            オセロニアにハマってます。<a
-                href="https://xn--cckp5c6czi2302avwxa.gamematome.jp/game/964/wiki/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E6%83%85%E5%A0%B1_No.601~700_%EF%BC%BB%E5%8F%96%E3%82%8A%E6%86%91%E3%81%8B%E3%82%8C%E3%81%9F%E9%87%9D%E9%BC%A0%EF%BC%BD%E3%82%A4%E3%83%BC%E3%82%B2%E3%83%AB"
-                target="_blank">イーゲルちゃん</a>が好きです。
-            趣味はイラストを描くこと。ツールとかを作るのが得意です٩( 'ω' )و
-        </span>
-        </p>
+
+            <div>
+                オセロニアにハマってます。<a
+                    href="https://xn--cckp5c6czi2302avwxa.gamematome.jp/game/964/wiki/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E6%83%85%E5%A0%B1_No.601~700_%EF%BC%BB%E5%8F%96%E3%82%8A%E6%86%91%E3%81%8B%E3%82%8C%E3%81%9F%E9%87%9D%E9%BC%A0%EF%BC%BD%E3%82%A4%E3%83%BC%E3%82%B2%E3%83%AB"
+                    target="_blank">イーゲルちゃん</a>が好きです。趣味はイラストを描くこと。ツールとかを作るのが得意です٩( 'ω' )و
+
+            </div>
+        </div>
         <hr>
         <h4>ツール</h4>
         <p>
@@ -94,7 +100,7 @@
                 <div v-for="history in historyList">
                     {{history.year}}
                     <a v-for="m in history.month" :href="m.url" target="_blank"><img
-                        :src="'images/rank'+m.rank+'.png'" :title="m.title"></a>
+                            :src="'images/rank'+m.rank+'.png'" :title="m.title"></a>
                 </div>
             </div>
 
