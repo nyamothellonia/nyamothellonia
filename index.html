@@ -77,145 +77,15 @@
             蘭陵王をリーダーにしたときのルキア対策に、蘭陵王より低いレベルに調整するための概算レベルを出すツールです。
         </p>
         <p>
-            <a href="https://nyamothellonia.github.io/feriya-material-checker/">闘化素材チェッカー</a>
+            <a href="https://nyamothellonia.github.io/feriya-material-checker/">◆ 闘化素材チェッカー</a>
+        </p>
+
+        <p>
             フェリヤや守護者の闘化素材一覧を見ることができます。
         </p>
         <hr>
-        <h4>オセロニア歴(上から新しい順)</h4>
-        <p>
-            <small>
-                <a href="https://twitter.com/nyam_othellonia/status/873213293686431744">2017.6 旧カンスト(ランク200)</a><br>
-                <a href="https://twitter.com/i/moments/857809914466410496">2017.4 初レジェンド(29位)</a><br>
-                <a href="https://twitter.com/nyam_othellonia/status/833323223357886464">2017.2 旧旧カンスト(ランク150)</a><br>
-                <a href="https://twitter.com/nyam_othellonia/status/816208278451458050">2017.1 旧クラスマッチマスタークラス昇格</a><br>
-                2016.9 オセロニア開始<br>
-
-            </small>
-
-        </p>
-
-        <hr>
-        <h4>カップ戦歴</h4>
-
-        <small id="cup-event">
-
-            <div id="cupHistoryList">
-                <div v-for="history in historyList">
-                    {{history.year}}
-                    <a v-for="m in history.month" :href="m.url" target="_blank"><img
-                            :src="'images/rank'+m.rank+'.png'" :title="m.title"></a>
-                </div>
-            </div>
-
-            <!--
-            <div id="cupHistoryList2" v-for="history in historyList">
-                <a :href="history.url"><img :src="'images/rank'+history.rank+'.png'"> {{history.title}}</a>
-            </div>
-            -->
-        </small>
-
-        <script>
-            var app4 = new Vue({
-                el: '#cup-event',
-                data: {
-                    historyList: [
-                        {
-                            year: "2017",
-                            month: [
-
-                                {
-                                    url: 'https://twitter.com/i/moments/935412892291047426',
-                                    rank: 2,
-                                    title: 'WC杯252位 (2017.12)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/947671867715751936',
-                                    rank: 2,
-                                    title: 'MB杯919位 (2017.11)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/925887775378874368',
-                                    rank: 4,
-                                    title: 'BS杯10261位 (2017.10)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/915069247298052097',
-                                    rank: 2,
-                                    title: 'SE杯312位 (2017.9)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/902489931884281856',
-                                    rank: 3,
-                                    title: 'SS杯5230位 (2017.8)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/890784972717441024',
-                                    rank: 2,
-                                    title: 'SF杯145位 (2017.7)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/878101453176397824',
-                                    rank: 1,
-                                    title: 'RB杯85位 (2017.6)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/867954648887341056',
-                                    rank: 1,
-                                    title: 'MG杯98位 (2017.5)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/857809914466410496',
-                                    rank: 1,
-                                    title: 'CF杯29位 (2017.4)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/845125377336889349',
-                                    rank: 2,
-                                    title: 'SB杯670位 (2017.3)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/834978774303174656',
-                                    rank: 2,
-                                    title: 'GA杯376位 (2017.2)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/824830300454678529',
-                                    rank: 2,
-                                    title: 'HG杯776位 (2017.1)'
-                                }
-                            ]
-                        },
-
-                        {
-                            year: "2016",
-                            month: [
-
-                                {
-                                    url: 'https://twitter.com/i/moments/824951411351826434',
-                                    rank: 2,
-                                    title: 'WB杯365位 (2016.12)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/824952916209332224',
-                                    rank: 3,
-                                    title: 'OB杯1227位 (2016.11)'
-                                },
-                                {
-                                    url: 'https://twitter.com/i/moments/824954417254313984',
-                                    rank: 3,
-                                    title: 'MT杯1173位 (2016.10)'
-                                }
-                            ]
-                        }
-
-                    ]
-                }
-            })
-        </script>
-
-        <hr>
-        <a href="https://sketch.pixiv.net/@nyamothellonia">pixiv Sketch</a> /
-        <a href="https://www.pixiv.net/member.php?id=24992838">pixiv</a>
+        <a href="https://www.pixiv.net/member.php?id=24992838"><img src="images/pixiv.png"> pixiv@にゃも</a> /
+        <a href="https://sketch.pixiv.net/@nyamothellonia">pixiv Sketch@にゃも</a>
         <div style="height: 480px; width:100%">
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             <a class="twitter-moment" data-lang="ja" href="https://twitter.com/i/moments/818105402244009985">イラストまとめ</a>
